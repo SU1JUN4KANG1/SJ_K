@@ -41,12 +41,12 @@ Install uPyCraft,you can dowmload it form this [web](https://randomnerdtutorials
 - Put the SW1 on USB siede  
 - install the CP2102 dirver 
 - Add Python program  
-Click ___Tools->Serial___  and select appropriate ___TTY/COM___ port, if you can see ___>>>___ in terminal, you're successful
+Click ___Tools->Serial___  and select appropriate ___TTY/COM___ port, if you can see ___">>>"___ in terminal, you're successful
 if you can't, try again  
 put the file ___boot.py___ to /device in uPyCraft IDE.
 You cam find ___boot.py___ in <u>https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test</u>  
 - SD card by ready
-open the [web](https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test/sd_card)  
+open the [web](https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test/sd_card)
 and copy all file to your SD card 
 ``` c
 The file description is as follows
@@ -57,7 +57,7 @@ The file description is as follows
         color_detect.bit  To detect color blocks, RPi MIPI camera v1.3 version is required.
         hdmi_v1.bit       Displays moving color stripes on HDMI
         mipi_camera.bit   The RPi MIPI camera v1.3 is required to capture images and display them on the HDMI display.
-        spi2gpio.bit      SPI interface GPIO extension logic, while supporting the operation of ADC/DAC/ rgb-led.
+        spi2gpio.bit      SPI interface GPIO extension logic, which supporting the operation of ADC/DAC/ rgb-led.
 ```  
 #### 3.Using esp32 with arduino by Library spartan_edge_ioex
 - you can dowmload it by [link](https://github.com/SU1JUN4KANG1/spartan_edge_ioex). 
