@@ -13,7 +13,7 @@ It can be used independently as an Arduino compatible board, or plugged into an 
 The Seeeduino v4.0 is an ATMEGA328 Microcontroller development board. The ATMEGA328P-MU is a high performance, low power AVR 8-Bit Microcontroller. The Seeeduino v4.0 has 14 digital input/output pins (6 of which can be used as PWM outputs) and 6 analog pins.  
 (pic)
 - Installation Instructions  
-  + Using Arduino IDE Boards Manager  
+    + Using Arduino IDE Boards Manager  
  Starting with 1.6.4, Arduino allows installation of third-party platform packages using Boards Manager. We have packages available for Windows, Mac OS, and Linux (32 and 64 bit).  
  If you want to see the details, you can refer to this [website](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md).  
  
@@ -60,15 +60,15 @@ The file description is as follows
 - you can dowmload it by [link](https://github.com/SU1JUN4KANG1/spartan_edge_ioex). 
 And move it to <u>arduino\libraries</u>,  
 - Example Instructions
- + 01LED_AND_BUTTON  
+   + 01LED_AND_BUTTON  
  Using button USER1 to control LED1/2 reverse
- + 02RGB_LED  
+   + 02RGB_LED  
  Set the RGBLED's R,G,B value,which will change the led color
- + 03ADC_AND_DAC  
+   + 03ADC_AND_DAC  
  Read ADC information from FPGA and output by Serial write DAC value to FPGA
- + 04SWITCH  
+   + 04SWITCH  
  Check the switch and ouput infomation by Serial
- + 05SWITCH_FPGA_BIT  
+   + 05SWITCH_FPGA_BIT  
  Using i2c to send infomation to ESP32 to switch the fpga-logic-bit.
  
 
