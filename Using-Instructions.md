@@ -15,6 +15,7 @@ The Seeeduino v4.0 is an ATMEGA328 Microcontroller development board. The ATMEGA
 - Installation Instructions  
     + Using Arduino IDE Boards Manager  
  Starting with 1.6.4, Arduino allows installation of third-party platform packages using Boards Manager. We have packages available for Windows, Mac OS, and Linux (32 and 64 bit).  
+ Enter https://dl.espressif.com/dl/package_esp32_index.json into Additional Board Manager URLs field
  If you want to see the details, you can refer to this [website](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md).  
  
 ## Libraries Instructions  
