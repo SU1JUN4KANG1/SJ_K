@@ -59,7 +59,7 @@ The file description is as follows
         mipi_camera.bit   The RPi MIPI camera v1.3 is required to capture images and display them on the HDMI display.
         spi2gpio.bit      SPI interface GPIO extension logic, which supporting the operation of ADC/DAC/ rgb-led.
 ```  
-#### 3.Using esp32 with arduino by Library spartan_edge_ioex
+#### 3.Using esp32 with arduino by spartan_edge_ioex Library  
 - you can dowmload it by [link](https://github.com/SU1JUN4KANG1/spartan_edge_ioex). 
 And move it to ___arduino\libraries___,  
 - Example Instructions
@@ -68,17 +68,10 @@ And move it to ___arduino\libraries___,
    + 02RGB_LED  
  Set the RGBLED's R,G,B value,which will change the led color
    + 03ADC_AND_DAC  
- Read ADC information from FPGA and output by Serial write DAC value to FPGA
+ Read ADC information from FPGA and output by Serial, adn write DAC value to FPGA
    + 04SWITCH  
- Check the switch and ouput infomation by Serial
+ Check the SW4 and ouput infomation by Serial
    + 05SWITCH_FPGA_BIT  
- Using i2c to send infomation to ESP32 to switch the fpga-logic-bit.
+ Using i2c to send infomation to ESP32 to select the fpga-logic-bit.
  
-
 Opening the .ino file and dowmload it by arduino IDE，you can check the board functionality  
-
-
-
-
-
-
