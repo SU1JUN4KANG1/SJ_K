@@ -46,7 +46,7 @@ if you can't, try again
 put the file ___boot.py___ to /device in uPyCraft IDE.
 You cam find ___boot.py___ in <u>https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test</u>  
 - SD card by ready
-open the [web](https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test/sd_card)
+open the [web](https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test/sd_card)  
 and copy all file to your SD card 
 ``` c
 The file description is as follows
