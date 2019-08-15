@@ -31,8 +31,8 @@ This library makes it easier for you to control spartan-edge-accelerator board
 <u>../flash.sh -p /dev/ttyUSB0 -b 460800</u>  
 And you should press BOOT key for a while  
 Parameter specification  
- + -p Uart device  
- + -b  Baudrate
+	+ -p Uart device  
+	+ -b  Baudrate  
  
 #### 2.Loading the FPGA_LOGIC automatically
 - Installation uPyCraft program  
