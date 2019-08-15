@@ -28,7 +28,7 @@ This library makes it easier for you to control spartan-edge-accelerator board
 - Download the [github repository](https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024.git)  
 - Go to the dir (DOWMLOADPATH)/MicroPython_ESP32_on_X1024/MicroPython_BUILD/firmware/esp32_sea  
 - Execute the command  
-___../flash.sh -p /dev/ttyUSB0 -b 460800___ 
+___../flash.sh -p /dev/ttyUSB0 -b 460800___  
 And you should press BOOT key for a while  
 Parameter specification  
 	+ -p Uart device  
