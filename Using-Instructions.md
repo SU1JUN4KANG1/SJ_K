@@ -41,12 +41,12 @@ Install uPyCraft,you can dowmload it form this [web](https://randomnerdtutorials
 - Put the SW1 on USB siede  
 - install the CP2102 dirver 
 - Add Python program  
-Click ___Tools->Serial___  and select appropriate ___TTY/COM___ port, if you can see ___">>>"___ in terminal, you're successful
+Click ___Tools->Serial___  and select appropriate ___TTY/COM___ port, if you can see ___">>>"___ in terminal, you're successful. 
 if you can't, try again  
 put the file ___boot.py___ to /device in uPyCraft IDE.
 You cam find ___boot.py___ in <u>https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test</u>  
-- SD card by ready
-open the [web](https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test/sd_card)
+- SD card by ready  
+open the [web](https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test/sd_card)  
 and copy all file to your SD card 
 ``` c
 The file description is as follows
