@@ -24,11 +24,11 @@ The Seeeduino v4.0 is an ATMEGA328 Microcontroller development board. The ATMEGA
 ### [spartan_edge_ioex](https://github.com/SU1JUN4KANG1/spartan_edge_ioex)
 This library makes it easier for you to control spartan-edge-accelerator board  
 #### 1.Flash MicroPython Firmware  
-- Check the fifth pin in SWITCH on the Slave side
+- Check the fifth pin in SW4 on the Slave side
 - Download the [github repository](https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024.git)  
 - Go to the dir (DOWMLOADPATH)/MicroPython_ESP32_on_X1024/MicroPython_BUILD/firmware/esp32_sea  
 - Execute the command  
-<u>../flash.sh -p /dev/ttyUSB0 -b 460800</u>  
+___../flash.sh -p /dev/ttyUSB0 -b 460800___ 
 And you should press BOOT key for a while  
 Parameter specification  
 	+ -p Uart device  
@@ -41,10 +41,10 @@ Install uPyCraft,you can dowmload it form this [web](https://randomnerdtutorials
 - Put the SW1 on USB siede  
 - install the CP2102 dirver 
 - Add Python program  
-Click <u>Tools->Serial</u>  and select appropriate <u>TTY/COM</u> port, if you can see <u>>>></u> in terminal, you're successful
+Click ___Tools->Serial___  and select appropriate ___TTY/COM___ port, if you can see ___>>>___ in terminal, you're successful
 if you can't, try again  
-put the file <u>boot.py</u> to /device in uPyCraft IDE.
-You cam find <u>boot.py</u> in <u>https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test</u>  
+put the file ___boot.py___ to /device in uPyCraft IDE.
+You cam find ___boot.py___ in <u>https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test</u>  
 - SD card by ready
 open the [web](https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024/tree/master/test/sd_card)
 and copy all file to your SD card 
@@ -61,7 +61,7 @@ The file description is as follows
 ```  
 #### 3.Using esp32 with arduino by Library spartan_edge_ioex
 - you can dowmload it by [link](https://github.com/SU1JUN4KANG1/spartan_edge_ioex). 
-And move it to <u>arduino\libraries</u>,  
+And move it to ___arduino\libraries___,  
 - Example Instructions
    + 01LED_AND_BUTTON  
  Using button USER1 to control LED1/2 reverse
