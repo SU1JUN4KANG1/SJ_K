@@ -22,7 +22,7 @@ The Seeeduino v4.0 is an ATMEGA328 Microcontroller development board. The ATMEGA
  
 ## Libraries Instructions  
 ### [spartan_edge_ioex](https://github.com/SU1JUN4KANG1/spartan_edge_ioex)
-This library makes it easier for you to use control spartan-edge-accelerator board simply  
+This library makes it easier for you to control spartan-edge-accelerator board  
 #### 1.Flash MicroPython Firmware  
 - Check the fifth pin in SWITCH on the Slave side
 - Download the [github repository](https://github.com/PYNQ-X1024/MicroPython_ESP32_on_X1024.git)  
