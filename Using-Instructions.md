@@ -13,6 +13,8 @@ It can be used independently as an Arduino compatible board, or plugged into an 
 The Seeeduino v4.0 is an ATMEGA328 Microcontroller development board. The ATMEGA328P-MU is a high performance, low power AVR 8-Bit Microcontroller. The Seeeduino v4.0 has 14 digital input/output pins (6 of which can be used as PWM outputs) and 6 analog pins.  
 (pic)
 - Installation Instructions  
+	+ Install arduino IDE
+	you can see the [web](https://www.arduino.cc/).
     + Using Arduino IDE Boards Manager  
  Starting with 1.6.4, Arduino allows installation of third-party platform packages using Boards Manager. We have packages available for Windows, Mac OS, and Linux (32 and 64 bit).  
  Enter https://dl.espressif.com/dl/package_esp32_index.json into Additional Board Manager URLs field  
